@@ -1,0 +1,12 @@
+""""""
+03/03/25
+Equipo: Pamba-code
+Trabajaron: Ceron Dauzon, Del Angel Alvino, Nevraumont Ceballos
+""""""
+# El codigo aqui descrito es un programa que recibe un número entero y determina si es par o impar 
+numero = int(input("Ingrese un número: ")) # Se utiliza la función input para recibir el número entero ademas de establecer la variable numero
+# Se utiliza la función int para convertir el número en un entero
+if numero % 2 == 0: # Se utiliza la función % para determinar si el número es par o impar
+    print("El número es par") # Se utiliza la función print para mostrar el resultado
+else: # en caso de que no sea par se utiliza la función else para determinar que es impar
+    print("El número es impar") #muestra el resultado impar en caso de que no sea par
